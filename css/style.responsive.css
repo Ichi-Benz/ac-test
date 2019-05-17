@@ -1,0 +1,34 @@
+@media only screen and (max-width:411px){
+    .page-footer div .mt-3 div {
+        text-align: left;
+    }
+    .list-col {
+        column-count: 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+    }
+    .ac-btmbar{
+        display:none;
+    }
+    .ac-topbar {
+        display: none;
+    }
+    .navbar-desk{
+        display:none;
+    }
+    .navbar-light .navbar-brand {
+        width: 60%;
+        text-align: center;
+    }
+    .navbar-brand img {
+        width: 70%;
+    }
+    .navbar-light .navbar-toggler {
+        border: 0;
+    }
+}
+@media only screen and (min-width:412px){
+    .navbar-mobile{
+        display:none;
+    }
+}
